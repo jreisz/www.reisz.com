@@ -1,0 +1,1835 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>		
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-language" content="en" />		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />		
+		<meta name="author" content="Juan Manuel Reisz" />	
+		<meta name="description" content="I'm Juan Manuel Reisz, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
+		<meta name="keywords" content="Juan Manuel Reisz, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Algorithms, PHP, MySQL, OOP, UniversoBit, Computrabajo, Linkedin, .NET, C#, Web Services, Jquery" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="14 days" />
+			
+		<title>Juan Manuel Reisz - Web Developer - Interactive Resume</title>
+				
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+		<link href="view/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="view/css/balloon.css" rel="stylesheet" />
+		<link href="view/style.css" rel="stylesheet" />
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /><!--UNDONE-->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		
+		<!--[if lt IE 9]>
+			<script src="/view/js/html5shiv.js"></script>
+			<script src="/view/js/respond.min.js"></script>
+		<![endif]-->						
+		<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="view/js/script.js"></script>
+		<script type="text/javascript" src="view/js/bootstrap.min.js"></script>				
+	</head>
+	<body data-spy="scroll" data-target="#navbar-example">	
+<iframe src="view/mp3/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop>
+    <source src="view/mp3/theme.mp3" type="audio/mp3">
+</audio>
+
+		<div id="top" class="jumbotron" data-src="./view/images/header/" data-position="center right">
+			<div class="container">
+				<h1>Juan Manuel Reisz</h1>
+				<p class="lead">Interactive resume</p>
+			</div>
+			
+			<div class="overlay"></div>
+			
+			<a href="#profile" class="scroll-down">	
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+		</div>
+		
+		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#profile">Profile</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#abilities">Abilities</a></li>
+										<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+		
+		<div class="background-white">
+			<div id="profile" class="container">
+				<h2>Profile</h2>
+<p class="lead">I&#039;m a creative full-stack developer</p>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-4">
+		<h3>About me</h3>
+		<p>
+			I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.		</p>
+	</div>
+	<div class="col-md-4 text-center">
+		<img src="view/images/cool.png" alt="Juan Manuel Reisz" width="246" height="246" />
+	</div>
+	<div class="col-md-4">
+		<h3>Details</h3>
+		<p>
+			<strong>Name:</strong><br />
+			Juan Manuel Reisz<br />
+			<strong>Age:</strong><br />
+			<span id="age">34 years</span><br />
+			<strong>Location:</strong><br />
+			Buenos Aires, Argentina		</p>
+		
+		<a href="https://twitter.com/jreisz"  class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow 
+@jreisz</a>		
+	</div>
+</div>
+
+<div class="text-center">
+    <p>Got inspired? Copied the theme? Or do you just like the website? No problem, just buy me a beer and make me happy!</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="TLC6GAV4JFT2G" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+</div>			</div>	
+		</div>	
+		
+		<div id="experiences" class="container">
+			<h2>Experiences</h2>
+<p class="lead">
+	&ldquo;Protons give an atom its identity, electrons its personality.&rdquo;<br />- Bill Bryson, A short history of nearly everything
+</p>
+
+<hr />
+
+<!--<div class="alert alert-danger">
+	<strong>Looking for an awesome new challenge somewhere in the neighborhood of Den Bosch or Amsterdam as a Creative PHP Web Developer. </strong>
+</div>-->
+
+<h3>Educations</h3>
+
+
+<div class="experiences">
+
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Microsoft</h4>
+			<p class="experience-period">
+				Mar 2009				- 
+				Nov 2009			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Course - Microsoft Certified Application Developer (MCAD)</strong>
+				<span class="hidden-phone">
+					This credential provides industry recognition for professional developers who build powerful applications using Microsoft Visual Studio .NET and Web services.				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Online					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>UAI</h4>
+			<p class="experience-period">
+				Abr 2004				- 
+				Dic 2008			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Degree - System Engineer (Specialization: Software)</strong>
+				<span class="hidden-phone">
+					Throughout my education as a System’s Engineer, I learned a myriad of engineering principles and disciplines. This ranged from lean manufacturing, data analysis, project management, operation research, and even economics. In class, I excelled in these topics and hope to continue to do so in a real work environment. 				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+		<div class="experience row">
+		<div class="col-md-4">
+			<h4></h4>
+			<p class="experience-period">
+							</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Degree - System Analyst (Specialization: Software)</strong>
+				<span class="hidden-phone">
+					The education was mainly C++ programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in university, I specialized in multimedia. Here I learned about developing -the importance of OOP-, web- and user experience and design.				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+</div>
+	
+	
+
+<hr />
+
+<h3>Careers</h3>
+
+
+<div class="experiences">
+
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Advanced Resources S.A.</h4>
+			<p class="experience-period">
+				Dec 2010				- 
+				current			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Software Architect</strong>
+				<span class="hidden-phone">
+					Several software products are owned by our development team abroad retail market, covering supermarket, hipermarket, dealers, resellers and vendors. 
+Since a few years we have been spreaded out over pharmaceutical industry.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://www.ar-consulting.com.ar" target="_blank">http://www.ar-consulting.com.ar</a>
+					</span>										
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Edenred</h4>
+			<p class="experience-period">
+				Jan 2009				- 
+				Dec 2010			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Software Architect</strong>
+				<span class="hidden-phone">
+					Responsible for the reengineering of 𝐓𝐢𝐜𝐤𝐞𝐭𝐂𝐚𝐫, a platform defined to simplify the administration and optimize expenses on vehicle fleet.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="https://www.edenred.com.ar/" target="_blank">https://www.edenred.com.ar/</a>
+					</span>
+					
+										
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Sistran</h4>
+			<p class="experience-period">
+				Dec 2007				- 
+				Jan 2009			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Software Architect</strong>
+				<span class="hidden-phone">
+					Core applications tech leader, in charge of provide guidelines to implement core framework under country layer application (Colombia). 
+The main clients were 𝐌𝐞𝐫𝐢𝐝𝐢𝐨𝐧𝐚𝐥 𝐒𝐞𝐠𝐮𝐫𝐨𝐬 and 𝐕𝐢𝐜𝐭𝐨𝐫𝐢𝐚 𝐒𝐞𝐠𝐮𝐫𝐨𝐬.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://www.sistran.com/latam/" target="_blank">http://www.sistran.com/latam/</a>
+					</span>
+					
+										
+				</span>
+			</p>
+		</div>
+	</div>
+		
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4></h4>
+			<p class="experience-period">
+								
+							</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Lead Developer</strong>
+				<span class="hidden-phone">
+					Responsible for the integration from core modules into country layer application.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Bogotá					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://www.sistran.com/latam/" target="_blank">http://www.sistran.com/latam/</a>
+					</span>
+					
+										
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4></h4>
+			<p class="experience-period">
+								
+							</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Full Stack Developer</strong>
+				<span class="hidden-phone">
+					Issue resolver working on Argentina country layer.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://www.sistran.com/latam/" target="_blank">http://www.sistran.com/latam/</a>
+					</span>
+					
+										
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>SMS Group</h4>
+			<p class="experience-period">
+				Jan 2006				- 
+				Dec 2007			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Full Stack Developer</strong>
+				<span class="hidden-phone">
+					Part of the software factory team to resolve issues on demand for 𝐑𝐞𝐩𝐬𝐨𝐥 𝐘𝐏𝐅. </span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+						<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://www.sms-europa.com/grupo-sms/" target="_blank">http://www.sms-europa.com/grupo-sms/</a>
+					</span>
+									
+				</span>
+			</p>
+		</div>
+	</div>
+	
+					
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Disco S.A.</h4>
+			<p class="experience-period">
+				May 2005				- 
+				Jan 2006			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Full Stack Developer</strong>
+				<span class="hidden-phone">
+					Member of development team in order to own 𝐃𝐢𝐬𝐜𝐨𝐕𝐢𝐫𝐭𝐮𝐚𝐥 system. Both backend and frontend development.</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Buenos Aires					</span>
+					
+										
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="https://www.disco.com.ar/" target="_blank">https://www.disco.com.ar/</a>
+					</span>
+					
+										
+				</span>
+			</p>
+		</div>
+	</div>
+	
+				
+	
+</div>
+	
+		</div>
+		
+		<div class="background-white">
+			<div id="abilities" class="container">
+				<h2>Abilities</h2>
+<p class="lead">
+	&ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
+</p>
+
+<hr />
+
+<h3>Skills</h3>
+
+<div class="row">
+
+		
+	<div class="col-md-6">
+		<ul class="no-bullets">
+		
+				
+			
+			
+			<li>
+				<span class="ability-title">SOLID & GRASP</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>		
+			<li>
+			
+				<span class="ability-title" aria-label="GOF, EAA, MBI, MVC, MVP, MVVM, MicroServices, DI Container!" data-balloon-pos="up">Design Patterns</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>	
+			<li>
+			
+				<span class="ability-title" aria-label="UML, Use Cases, Secuense, State and Deployment Diagram, FxCop!" data-balloon-pos="up">Architecture Modeling</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>	
+			<li>
+			
+				<span class="ability-title" aria-label="DevOps, TDD, XP!" data-balloon-pos="up">Agile & DevOps</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>	
+			<li>
+				<span class="ability-title" aria-label="SQLServer, MySQL!" data-balloon-pos="up">Transact-SQL</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>	
+				
+			<li>
+				<span class="ability-title" aria-label="Get/Post, XMLHttpRequest, ASPNET Ajax Extensions, jQuery.ajax, SOAP (WebServices, WCF Services), REST (WebServices, Web.Api)!" data-balloon-pos="up">HTTP</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			<li>
+				<span class="ability-title" aria-label="PHP, ASP 3.0, ASP.NET AJAX, MVC, WEB API!" data-balloon-pos="up">ASP.NET</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>	
+				
+			
+				
+			<li>
+				<span class="ability-title" aria-label="Visual FoxPro, VB6 (COM, DCOM), VB.NET, C# 1.0..C# 7.0!" data-balloon-pos="up">C#</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>
+			
+			<li>
+				<span class="ability-title" aria-label="express, babel, ejs, morgan, nodemon, crypto-js, mongoose!" data-balloon-pos="up">NodeJS</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>	
+			<li>
+				<span class="ability-title" aria-label="HTML, XHTML, DHTML, HTML5!" data-balloon-pos="up">HTML</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			<li>
+				<span class="ability-title" aria-label="CSS, CSS2, CSS3, SASS/SCSS, Font Awesome!" data-balloon-pos="up">CSS</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>
+					
+			
+			
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			
+	
+					
+				<li>
+				<span class="ability-title" aria-label="VBScript, javascript, jQuery, angularJS!" data-balloon-pos="up">JavaScript</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>
+				
+			<li>
+				<span class="ability-title" aria-label="ES6!" data-balloon-pos="up">TypeScript</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+									
+				</span>
+			</li>
+				
+					
+				
+			
+			
+					
+				
+			
+					
+		
+					
+				
+		<li>
+				<span class="ability-title">BlockChain</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">React</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+			 
+			<li>
+				<span class="ability-title">Google Cloud Compute Engine</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+		
+					
+				
+			<li>
+				<span class="ability-title">MSMQ</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			
+					
+				
+			<li>
+				<span class="ability-title" aria-label="MongoDB!" data-balloon-pos="up">No-SQL</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+		<li>
+				<span class="ability-title">Java</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+						
+			<li>
+				<span class="ability-title">Wordpress</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+								
+					<span class="glyphicon glyphicon-star"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Assembler</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			
+					
+				
+			
+			<li>
+				<span class="ability-title">Python</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+					
+				
+		</ul>
+	</div>
+	
+		
+</div>
+
+<div class="text-center project-referal">
+
+</div>
+
+<hr />
+
+<h3>Languages</h3>
+
+<div class="row">
+
+		
+	<div class="col-md-6">
+		<ul class="no-bullets">
+		
+				
+			<li>
+				<span class="ability-title">Spanish (Mother tongue)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">English (Daily use)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+			 
+			
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			
+					
+				
+			<li>
+				<span class="ability-title">Portuguese (Survivable)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Italian (Un pochino)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+		</ul>
+	</div>
+	
+		
+</div>
+
+<hr />
+
+<h3>Tools</h3>
+
+<div class="row">
+		
+	<div class="col-md-6">
+		<ul class="no-bullets">
+		
+				
+			<li>
+				<span class="ability-title">FileZilla (8 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title" aria-label="Redux, Nodejs DevTools!" data-balloon-pos="up">Chrome Dev (8 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">MS Office (10+ years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">PostMan (6 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			<li>
+				<span class="ability-title" aria-label="Cordova!" data-balloon-pos="up">PhoneGAP</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+					
+		<li>
+				<span class="ability-title">Bootstrap</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+					
+					
+				
+			<li>
+				<span class="ability-title">JetBrains ReSharper</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Webkit browsers (6 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Windows (10+ years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Adobe Fireworks (8 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Redmine / Jira</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+			 
+			
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			
+					
+				
+			<li>
+				<span class="ability-title" aria-label="NPX!" data-balloon-pos="up">NPM (4 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title" aria-label="Source Safe, SVN!" data-balloon-pos="up">Git / GitHub (4 year)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">WatiN</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title" aria-label="Data Access, Logging, Exception Handling!" data-balloon-pos="up">Application Blocks</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">BizTalk Server Interfaces</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Cruise Control .NET</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Nunit / Jest & Supertest</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Adobe Photoshop (6 years)</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+					
+				
+			<li>
+				<span class="ability-title">Cristal Reports</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+							
+				
+			<li>
+				<span class="ability-title">NCover</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+						
+				
+			<li>
+				<span class="ability-title">NAnt</span>
+				<span class="ability-score">
+				
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star filled"></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+								
+					<span class="glyphicon glyphicon-star "></span>
+					
+									
+				</span>
+			</li>
+			
+		</ul>
+	</div>
+	
+	</div>			</div>
+		</div>
+		
+				
+		<div id="projects" class="container">
+			<h2>Projects</h2>
+<p class="lead">
+	&ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin Franklin
+</p>
+
+<hr />
+
+
+<div class="row">
+
+		
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view/images/list/sistran.png" alt="Sistran" />
+			
+			 <figcaption> 
+				<h3  style="margin-top:0;padding-top:0">Sistran</h3> 
+				 <p>Build Core & Framework Components.</p> 
+				 <p><strong>Tags:</strong> <br />Design, Development, C#, ASP.NET</p> 
+				 <span class="icon"> 
+					 <span class="glyphicon glyphicon-new-window"></span> 
+				 </span> 
+			 </figcaption>  
+		</figure>
+	</div>
+
+		
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view/images/list/victoria.png" alt="Sistran" />			
+			 <figcaption> 
+				<h3  style="margin-top:0;padding-top:0">Sistran</h3> 
+				 <p>Build Core & Framework Components.</p> 
+				 <p><strong>Tags:</strong> <br />Design, Development, C#, ASP.NET</p> 
+				 <span class="icon"> 
+					 <span class="glyphicon glyphicon-new-window"></span> 
+				 </span> 
+			 </figcaption>  
+		</figure>
+	</div>
+
+		
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view/images/list/sms.png" alt="SMS Group" />
+			
+			<figcaption>
+				<h3 style="margin-top:0;padding-top:0">SMS Group</h3>
+				<p> Issues & Bug Fixies Development
+				</p>
+				<p><strong>Tags:</strong> <br />Development, C#, Javascript</p>				
+				<span class="icon">
+					<span class="glyphicon glyphicon-new-window"></span>
+				</span>
+			</figcaption> 
+		</figure>
+	</div>
+
+		
+	<div class="col-md-6 col-sm-12 col-xs-12">
+		<figure class="effect">
+			<img src="view/images/list/disco.png" alt="Disco" />			
+			<figcaption>
+				<h3 style="margin-top:0;padding-top:0">Disco</h3>
+				<p> Issues & Bug Fixies Development
+				</p>
+				<p><strong>Tags:</strong> <br />Development, C#, SQLServer</p>				
+				<span class="icon">
+					<span class="glyphicon glyphicon-new-window"></span>
+				</span>
+			</figcaption> 
+		</figure>
+	</div>
+
+		
+</div>
+	
+		</div>
+		
+		<div class="background-gray">
+			<div id="contact" class="container">
+				<h2>Contact</h2>
+<p class="lead">
+	&ldquo;If I had asked people what they wanted, they would have said faster horses. &rdquo;<br />- Henry Ford
+</p>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-4">
+		<ul class="no-bullets">
+			<!--<li>
+				<a href="javascript:void(0);">
+					<span class="icon icon-skype"></span>
+					pascalvgemert				</a>
+			</li>-->
+			<li>
+				<a href="mailto:ln.tremegnavlacsap@lacsap">
+					<span class="icon icon-email"></span>
+					<span style="unicode-bidi:bidi-override; direction: rtl;">
+						ti.liamtoh@zsier					</span>
+				</a>
+			</li>
+		</ul>
+	</div><div class="col-md-7">
+		<ul class="no-bullets">
+			<li >
+				<a href="https://www.linkedin.com/in/juan-manuel-reisz-6a7b94158/" target="_blank" style='text-align:center'> 
+					<span class="icon icon-linkedin"></span>
+					https://www.linkedin.com/in/juan-manuel-reisz-6a7b94158</a>
+			</li>			
+		</ul>
+	</div>
+	
+</div>
+
+<hr />
+
+<div class="text-center">
+	<!-- <iframe id="twitter-widget-1"  scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.c633b87376883931e7436b93bb46a699.en.html#_=1452458429192&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3AcRExpd3vwGsJ%3Awww.pascalvangemert.nl%2F%2B%26cd%3D1%26hl%3Den%26ct%3Dclnk%26gl%3Dnl%26lr%3Dlang_nl%257Clang_en&amp;size=m&amp;text=Pascal%20van%20Gemert%20-%20Web%20Developer%20-%20Interactive%20Resume&amp;type=share&amp;url=http%3A%2F%2Fpascalvangemert.nl%2F%3Fref%3Dtwitter&amp;via=pascalvgemert" style="position: static; visibility: visible; width: 62px; height: 20px;" data-url="http://pascalvangemert.nl/?ref=twitter"></iframe> -->
+	<!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> -->
+	<!-- <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpascalvangemert.nl%3Fref%3Dfacebook&amp;width=120&amp;height=21&amp;colorscheme=dark&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=143175172374579" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowtransparency="true"></iframe> -->
+</div>			</div>
+		</div>
+		
+		<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Your browser is out of date</h4>
+			</div>
+			<div class="modal-body">
+				<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
+			</div>
+			<div class="modal-footer">
+				<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->						
+</body>
+</html>

@@ -1,5 +1,6 @@
 {
-  "name": "www.reisz.com",
+  "homepage": "https://jreisz.github.io/www.reisz.com",
+  "name": "www.reisz.com",  
   "version": "1.0.0",
   "description": "Online Resume for a Software Architect / Full Stack Developer",
   "main": "index.js",
@@ -14,6 +15,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jreisz/www.reisz.com/issues"
-  },
-  "homepage": "https://github.com/jreisz/www.reisz.com#readme"
+  }  
 }
